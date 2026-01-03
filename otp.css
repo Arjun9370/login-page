@@ -1,0 +1,74 @@
+body {
+    background-color: #fffaff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace with correct image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px;
+    margin: 70px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #222;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
